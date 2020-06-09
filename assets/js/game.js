@@ -78,7 +78,7 @@ var playerInfo = {
       this.health = 100;
       this.money = 10;
       this.attack = 10;
-    }, // comma!
+    },
     refillHealth: function() {
         if (this.money >= 7) {
           window.alert("Refilling player's health by 20 for 7 dollars.");
